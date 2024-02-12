@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "open-interpreter-estats"
+version = "0.1.0"
+description = "Fetch data from e-stats and analyze, in natural language."
+authors = ["takeaship"]
+license = "AGPL-3.0"
+readme = "README.md"
+packages = [{include = "open_interpreter_estats"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+open-interpreter = "^0.2.0"
+jpy-datareader = "^0.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
