@@ -10,7 +10,7 @@ packages = [{include = "open_interpreter_estats"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 open-interpreter = "^0.2.0"
-jpy-datareader = "^0.0.4"
+jpy-datareader = {path = "modules/jpy-datareader"}
 
 
 [build-system]
